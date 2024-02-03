@@ -8,7 +8,7 @@ namespace Fzrain.Core
     public abstract partial class BaseEntity
     {
        
-        public long Id { get; set; }
+        private long Id { get; set; }
 
         public override bool Equals(object obj)
         {
